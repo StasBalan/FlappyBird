@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <style>
+        #canvas {
+            border: 1px solid #000000;
+            /*position: absolute;*/
+            /*left: 40%;*/
+            margin: 100px 800px;
+        }
+        #over {
+            width: 200px;
+            height: 150px;
+            background-color: #f1c40f;
+            display: none;
+            position: absolute;
+            top: 150px;
+            left: 850px;
+        }
+        #over h1 {
+            font-size: 25px;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+        #over p {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            margin: 0;
+        }
+        #over button {
+            position: absolute;
+            bottom: 10px;
+            left: 75px;
+            background: green;
+            border-radius: 50%;
+            border:none;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .play {
+            color: #ffffff;
+            font-size: 30px;
+            padding: 10px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="288" height="512"></canvas>
+    <!--<div id="over">-->
+        <!--<h1>GAME OVER</h1>-->
+        <!--<button id="button">Go</button>-->
+    <!--</div>-->
+
+    <script src="js/index.js"></script>
+</body>
+</html>
